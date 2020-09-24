@@ -52,7 +52,6 @@ jobs:
           sed -i '3cCONFIG_TARGET_sunxi_cortexa53_DEVICE_sun50i-h5-nanopi-neo-plus2=y' configs/config_h5
           sed -i 's/dnsmasq /dnsmasq-full /' friendlywrt/include/target.mk
           
-          
       - name: Clean Feeds
         run: |
           cd friendlywrt-h5/friendlywrt
